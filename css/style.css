@@ -90,3 +90,21 @@ canvas.webgl {
   color: white;
   transform: scale(1.05);
 }
+
+
+.webgl{
+  position:fixed;
+  top:0;
+  left:0;
+}
+
+.japanese-text{
+  top: 30%;   /* más arriba */
+  position:fixed;
+  bottom:120px;
+  width:100%;
+  text-align:center;
+  color:#ff2d55;
+  font-size:28px;
+  z-index:999;
+}
