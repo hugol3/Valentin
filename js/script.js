@@ -182,6 +182,28 @@ button.addEventListener('click', () => {
             target[i * 3 + 1] = heartPoints[i].y;
             target[i * 3 + 2] = heartPoints[i].z;
         }
+
+        // ✨ efecto escritura
+          setTimeout(() => {
+
+        if(window.Typed){
+           new Typed("#typed", {
+              strings: [
+                "君が大切です",
+                "(Eres muy importante para mí)"
+              ],
+              typeSpeed: 80,
+              backSpeed: 40,
+              backDelay: 2000,
+              loop: false
+            });
+        }else{
+            console.log("Typed no cargó");
+        }
+
+    }, 200);
+
+    
     }, 800);
 });
 
